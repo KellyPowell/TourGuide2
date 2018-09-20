@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/dining_text_view"
+        style="@style/CategoryStyle"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/DiningColor"
+        android:onClick="openDiningActivity"
+        android:text="@string/dining"
+        android:paddingRight="16dp"
+        android:drawableRight="@drawable/baseline_arrow_forward_ios_white_24dp"
+        android:layout_marginBottom="4dp"
+        android:layout_marginTop="3dp"/>
+    <!-- adding expand button????? -->
+
+
+    <TextView
+        android:id="@+id/outdoours_text_view"
+        style="@style/CategoryStyle"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/OutdoorsColor"
+        android:onClick="openOutdoorsActivity"
+        android:text="@string/outdoors"
+        android:paddingRight="16dp"
+        android:drawableRight="@drawable/baseline_arrow_forward_ios_white_24dp"
+        android:layout_marginBottom="4dp"/>
+
+    <TextView
+        android:id="@+id/shopping_text_view"
+        style="@style/CategoryStyle"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/ShoppingColor"
+        android:onClick="openShoppingActivity"
+        android:text="@string/shopping"
+        android:paddingRight="16dp"
+        android:drawableRight="@drawable/baseline_arrow_forward_ios_white_24dp"
+        android:layout_marginBottom="4dp"/>
+
+    <TextView
+        android:id="@+id/art_text_view"
+        style="@style/CategoryStyle"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/ArtColor"
+        android:onClick="openArtActivity"
+        android:text="@string/art"
+        android:paddingRight="16dp"
+        android:drawableRight="@drawable/baseline_arrow_forward_ios_white_24dp"
+        android:layout_marginBottom="4dp"/>
+
+</LinearLayout>

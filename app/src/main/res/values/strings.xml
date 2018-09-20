@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">TourGuide</string>
+    <string name="dining">Dining</string>
+    <string name="outdoors">Outdoors</string>
+    <string name="shopping">Shopping</string>
+    <string name="art">Art</string>
+</resources>
